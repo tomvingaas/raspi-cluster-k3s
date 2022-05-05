@@ -1,0 +1,15 @@
+#master node
+[master]
+
+# worker node
+[worker]
+
+# all nodes
+[cluster:children]
+master
+worker
+
+# common variables
+[cluster:vars]
+ssh_user=mojojojo
+ssh_private_key=private-key goes here

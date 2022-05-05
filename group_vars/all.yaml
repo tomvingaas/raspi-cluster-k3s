@@ -1,0 +1,2 @@
+ssh_user: mojojojo
+ssh_identity_key: ~/.ssh/id_rsa.pub
